@@ -20,6 +20,7 @@
         }
     },
     "lang.c": {
+        "defines": ["FLECS_USE_OS_ALLOC"],
         "${os linux}": {
             "lib": ["rt", "pthread", "m"],
             "${cfg debug}": {
